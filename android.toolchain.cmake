@@ -21,3 +21,6 @@ set(CMAKE_ANDROID_STL_TYPE c++_shared)
 set(CMAKE_ANDROID_NDK_TOOLCHAIN_VERSION clang)
 
 set(CMAKE_Fortran_COMPILER "" CACHE INTERNAL "Set Fortran compiler")
+
+set(PCRE2_INCLUDE_DIRS "/home/ubuntu/workspace/pkg/pcre2_10.45/include")
+set(PCRE2_LIBRARIES "/home/ubuntu/workspace/pkg/pcre2_10.45/lib/libpcre2-8.a")
