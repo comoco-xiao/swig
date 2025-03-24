@@ -7,8 +7,12 @@
 # PCRE2_LIBRARIES - The PCRE library file
 # PCRE2_INCLUDE_DIRS - The folder with the PCRE headers
 
-find_library(PCRE2_LIBRARY NAMES pcre2 pcre2-8)
-find_path(PCRE2_INCLUDE_DIR pcre2.h)
+# todo xiao
+# find_library(PCRE2_LIBRARY NAMES pcre2 pcre2-8)
+# find_path(PCRE2_INCLUDE_DIR pcre2.h)
+
+set(PCRE2_INCLUDE_DIR "/home/ubuntu/workspace/pkg/pcre2_10.45/include")
+set(PCRE2_LIBRARY "/home/ubuntu/workspace/pkg/pcre2_10.45/lib/libpcre2-8.a")
 
 set (PCRE2_LIBRARIES ${PCRE2_LIBRARY})
 set (PCRE2_INCLUDE_DIRS ${PCRE2_INCLUDE_DIR})
